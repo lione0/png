@@ -1,13 +1,13 @@
-<mxfile host="www.draw.io" modified="2019-11-11T06:50:13.002Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="W-MVs23ejwxWJlTqeuZj" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-12T01:17:20.227Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="kUIz0JGftK7--lhTZNTe" version="12.2.3" type="github" pages="1">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="4973" dy="2596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="10410" dy="5510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="MO7SUTFCpSmHmxjMydiH-108" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="-2697" y="-425.5" width="300" height="245" as="geometry"/>
         </mxCell>
-        <mxCell id="77e6c97f196da883-1" value="交互" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=8;fontColor=#000000;align=center;" parent="1" vertex="1">
+        <mxCell id="77e6c97f196da883-1" value="废弃！！！" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=8;fontColor=#000000;align=center;" parent="1" vertex="1">
           <mxGeometry x="80" y="120" width="1290" height="2985" as="geometry"/>
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="erp进销存" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
@@ -566,24 +566,6 @@
               <mxPoint x="770" y="2440"/>
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="s87jRDJJuABOHA1_RDAK-3" value="&lt;font&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;（通知队列）【调拨】&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;producer： pt2/erp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;consumer： pt2&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;" parent="1" vertex="1">
-          <mxGeometry x="62" y="-790" width="318" height="90" as="geometry"/>
-        </mxCell>
-        <mxCell id="s87jRDJJuABOHA1_RDAK-8" value="&lt;font&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;（通知队列）【导入新增设备】&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;producer： pt2/erp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;consumer： pt2&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;" parent="1" vertex="1">
-          <mxGeometry x="58" y="-670" width="318" height="90" as="geometry"/>
-        </mxCell>
-        <mxCell id="s87jRDJJuABOHA1_RDAK-9" value="&lt;font&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;（通知队列）【拆装设备】&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;producer： pt2/erp/workOder/policy&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;consumer： pt2&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;" parent="1" vertex="1">
-          <mxGeometry x="52.5" y="-550" width="318" height="90" as="geometry"/>
-        </mxCell>
-        <mxCell id="s87jRDJJuABOHA1_RDAK-10" value="&lt;font&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;（通知队列）【同步设备库存信息等】&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;producer： pt2/erp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;consumer： pt2&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;" parent="1" vertex="1">
-          <mxGeometry x="50" y="-425" width="318" height="90" as="geometry"/>
-        </mxCell>
-        <mxCell id="s87jRDJJuABOHA1_RDAK-11" value="&lt;font&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;（通知队列）【调拨】&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;producer： pt2&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;consumer： erp&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;" parent="1" vertex="1">
-          <mxGeometry x="458.5" y="-790" width="318" height="90" as="geometry"/>
-        </mxCell>
-        <mxCell id="s87jRDJJuABOHA1_RDAK-12" value="&lt;font&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;（通知队列）【拆装设备】&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;producer：&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;consumer： pt2&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;" parent="1" vertex="1">
-          <mxGeometry x="452" y="-550" width="318" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="9OqRoaYShbifYLGB0QwJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#6a00ff;strokeColor=#3700CC;strokeWidth=2;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="9OqRoaYShbifYLGB0QwJ-1" target="9OqRoaYShbifYLGB0QwJ-36" edge="1">
           <mxGeometry relative="1" as="geometry">
